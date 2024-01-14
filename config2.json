@@ -1,0 +1,574 @@
+{
+    "model": [
+        {
+            "name": "三维模型",
+            "selected": true,
+            "children": [
+                {
+                    "name": "病灶1",
+                    "link": "https://cdn.jsdelivr.net/gh/shaobeichen/stl-file@main/LS1加2.stl",
+                    "color": "255, 255, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "病灶2",
+                    "link": "",
+                    "color": "255, 215, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "病灶3",
+                    "link": "",
+                    "color": "255, 239, 213",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "病灶4",
+                    "link": "",
+                    "color": "255, 228, 181",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "病灶5",
+                    "link": "",
+                    "color": "255, 218, 185",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "疑似结节",
+                    "link": "/file/疑似结节.stl",
+                    "color": "0, 255, 255",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "淋巴结",
+                    "link": "",
+                    "color": "0, 255, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "左肺",
+                    "link": "",
+                    "color": "192, 192, 192",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "右肺",
+                    "link": "",
+                    "color": "192, 192, 192",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "肺动脉",
+                    "link": "/file/肺动脉.stl",
+                    "color": "255, 0, 0",
+                    "opacity": "1",
+                    "showVolume": false
+                },
+                {
+                    "name": "肺静脉",
+                    "link": "/file/肺静脉.stl",
+                    "color": "0, 0, 255",
+                    "opacity": "1",
+                    "showVolume": false
+                },
+                {
+                    "name": "支气管",
+                    "link": "/file/支气管.stl",
+                    "color": "220, 220, 220",
+                    "opacity": "1",
+                    "showVolume": false
+                },
+                {
+                    "name": "边界球",
+                    "link": "/file/边界球.stl",
+                    "color": "135, 206, 250",
+                    "opacity": "0.3",
+                    "showVolume": false
+                }
+            ]
+        },
+        {
+            "name": "肺分叶",
+            "selected": false,
+            "children": [
+                {
+                    "name": "左肺上叶",
+                    "link": "/file/左肺上叶.stl",
+                    "color": "244, 164, 96",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "左肺下叶",
+                    "link": "/file/左肺下叶.stl",
+                    "color": "218, 165, 32",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "右肺上叶",
+                    "link": "/file/右肺上叶.stl",
+                    "color": "173, 255, 47",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "右肺中叶",
+                    "link": "/file/右肺中叶.stl",
+                    "color": "127, 255, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "右肺下叶",
+                    "link": "/file/右肺下叶.stl",
+                    "color": "124, 252, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                }
+            ]
+        },
+        {
+            "name": "肺分段",
+            "selected": false,
+            "children": [
+                {
+                    "name": "LS1加2",
+                    "link": "/file/LS1加2.stl",
+                    "color": "0, 255, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS3",
+                    "link": "/file/LS3.stl",
+                    "color": "50, 205, 50",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS4",
+                    "link": "/file/LS4.stl",
+                    "color": "152, 251, 152",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS5",
+                    "link": "/file/LS5.stl",
+                    "color": "144, 238, 144",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS6",
+                    "link": "",
+                    "color": "147, 112, 219",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS7加8",
+                    "link": "",
+                    "color": "244102, 51, 153",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS9",
+                    "link": "",
+                    "color": "138, 43, 226",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS10",
+                    "link": "",
+                    "color": "2148, 0, 211",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS1",
+                    "link": "",
+                    "color": "218, 112, 214",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS2",
+                    "link": "",
+                    "color": "255, 0, 255",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS3",
+                    "link": "",
+                    "color": "255, 0, 255",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS4",
+                    "link": "",
+                    "color": "72, 61, 139",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS5",
+                    "link": "",
+                    "color": "123, 104, 238",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS6",
+                    "link": "",
+                    "color": "218, 165, 32",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS7",
+                    "link": "",
+                    "color": "184, 134, 11",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS8",
+                    "link": "",
+                    "color": "205, 133, 63",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS9",
+                    "link": "",
+                    "color": "210, 105, 30",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS10",
+                    "link": "",
+                    "color": "139, 69, 19",
+                    "opacity": "0.3",
+                    "showVolume": true
+                }
+            ]
+        },
+        {
+            "name": "肺分亚段",
+            "selected": false,
+            "children": [
+                {
+                    "name": "LS1加2a",
+                    "link": "/file/LS1加2a.stl",
+                    "color": "34, 139, 34",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS1加2b",
+                    "link": "/file/LS1加2b.stl",
+                    "color": "0, 128, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS1加2c",
+                    "link": "/file/LS1加2c.stl",
+                    "color": "0, 100, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS3a",
+                    "link": "/file/LS3a.stl",
+                    "color": "154, 205, 50",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS3b",
+                    "link": "/file/LS3b.stl",
+                    "color": "107, 142, 35",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS3c",
+                    "link": "/file/LS3c.stl",
+                    "color": "128, 128, 0",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS4a",
+                    "link": "/file/LS4a.stl",
+                    "color": "85, 107, 47",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS4b",
+                    "link": "/file/LS4b.stl",
+                    "color": "102, 205, 170",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS5a",
+                    "link": "/file/LS5a.stl",
+                    "color": "143, 188, 139",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS5b",
+                    "link": "/file/LS5b.stl",
+                    "color": "32, 178, 170",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS6a",
+                    "link": "",
+                    "color": "106, 90, 205",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS6b",
+                    "link": "",
+                    "color": "72, 61, 139",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS6c",
+                    "link": "",
+                    "color": "123, 104, 238",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS7加8a",
+                    "link": "",
+                    "color": "186, 85, 211",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS7加8b",
+                    "link": "",
+                    "color": "147, 112, 219",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS9a",
+                    "link": "",
+                    "color": "238, 130, 238",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS9b",
+                    "link": "",
+                    "color": "218, 112, 214",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS10a",
+                    "link": "",
+                    "color": "255, 0, 255",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS10b",
+                    "link": "",
+                    "color": "255, 0, 255",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "LS10c",
+                    "link": "",
+                    "color": "186, 85, 211",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS1a",
+                    "link": "",
+                    "color": "222, 184, 135",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS1b",
+                    "link": "",
+                    "color": "210, 180, 140",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS2a",
+                    "link": "",
+                    "color": "188, 143, 143",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS2b",
+                    "link": "",
+                    "color": "244, 164, 96",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS3a",
+                    "link": "",
+                    "color": "218, 165, 32",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS3b",
+                    "link": "",
+                    "color": "184, 134, 11",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS4a",
+                    "link": "",
+                    "color": "0, 191, 255",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS4b",
+                    "link": "",
+                    "color": "30, 144, 255",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS5a",
+                    "link": "",
+                    "color": "100, 149, 237",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS5b",
+                    "link": "",
+                    "color": "123, 104, 238",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS6a",
+                    "link": "",
+                    "color": "205, 92, 92",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS6b",
+                    "link": "",
+                    "color": "240, 128, 128",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS6c",
+                    "link": "",
+                    "color": "250, 128, 114",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS7a",
+                    "link": "",
+                    "color": "154, 205, 50",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS7b",
+                    "link": "",
+                    "color": "107, 142, 35",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS8a",
+                    "link": "",
+                    "color": "95, 158, 160",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS8b",
+                    "link": "",
+                    "color": "70, 130, 180",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS9a",
+                    "link": "",
+                    "color": "112, 128, 144",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS9b",
+                    "link": "",
+                    "color": "47, 79, 79",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS10a",
+                    "link": "",
+                    "color": "175, 238, 238",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS10b",
+                    "link": "",
+                    "color": "127, 255, 212",
+                    "opacity": "0.3",
+                    "showVolume": true
+                },
+                {
+                    "name": "RS10c",
+                    "link": "",
+                    "color": "64, 224, 208",
+                    "opacity": "0.3",
+                    "showVolume": true
+                }
+            ]
+        }
+    ]
+}
